@@ -20,4 +20,5 @@ install(TARGETS searpc
     RUNTIME DESTINATION bin
 )
 
-install(DIRECTORY ${PROJECT_SOURCE_DIR}/include/ DESTINATION include)
+# install(DIRECTORY ${PROJECT_SOURCE_DIR}/include/ DESTINATION include)
+install(DIRECTORY ${PROJECT_SOURCE_DIR}/lib/ DESTINATION include)

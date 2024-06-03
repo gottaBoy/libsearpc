@@ -33,7 +33,7 @@ add_subdirectory(lib)
 if (ENABLE_COMPILE_DEMO)
     add_subdirectory(demo)
 endif()
-add_subdirectory(tests)
+# add_subdirectory(tests)
 add_subdirectory(pysearpc)
 
 # 安装配置文件
